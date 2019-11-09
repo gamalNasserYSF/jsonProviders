@@ -1,0 +1,117 @@
+// variabels
+$darkColor: #081C23;
+$mainColor :#47AD85;
+
+// global
+body {
+    font-family: 'Neucha', cursive;
+    background: #F4F4F4;
+}
+
+input:focus {
+    border-color: $mainColor !important;
+    box-shadow: none !important;
+}
+
+// header
+.header {
+    background: $darkColor;
+
+    .navbar {
+        .navbar-brand {
+            color: $mainColor;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        form {
+            input {
+                background-repeat: no-repeat;
+                background-position: 9px 48%;
+                padding-left: 37px;
+            }
+
+            button {
+                color: #fff;
+                border-color: $mainColor;
+
+                &:hover {
+                    background: $mainColor;
+                }
+            }
+        }
+    }
+}
+
+// movies-section
+.movies-section {
+    padding: 70px 0 40px;
+
+    .movie {
+        margin-bottom: 50px;
+        box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+
+        .content {
+            background: #fff;
+            padding: 8px 15px;
+        }
+
+        .movie-image {
+            min-height: 200px;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+
+            @media (max-width: 575.98px) {
+                min-height: 250px;
+            }
+
+            a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        .movie-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .date {
+            color: #9c9999;
+            font-size: 13px;
+        }
+
+        .text {
+            font-size: 14px;
+            margin: 20px 0 30px;
+        }
+
+        .more-info {
+            border-top: 1px solid rgba(156, 153, 153, 0.22);
+            padding: 10px 0;
+
+            a {
+                color: #000000;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// pagination
+.pagination {
+    .page-link {
+        color: $mainColor;
+    }
+
+    .page-item.active .page-link {
+        background: $mainColor;
+        border-color: $mainColor;
+    }
+}

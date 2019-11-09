@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/Console/Commands/SendEmails.php" />
+    <file url="file://$PROJECT_DIR$/storage/framework/views/064b1e836018a4ee2857de8e7d8cb3049aeb978a.php" />
+    <file url="file://$PROJECT_DIR$/storage/framework/views/74929e254def4abe47174856f285a99be6cd90b8.php" />
+  </component>
+</project>

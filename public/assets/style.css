@@ -1,0 +1,108 @@
+body {
+  font-family: 'Neucha', cursive;
+  background: #F4F4F4;
+}
+
+input:focus {
+  border-color: #47AD85 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.header {
+  background: #081C23;
+}
+
+.header .navbar .navbar-brand {
+  color: #47AD85;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.header .navbar form input {
+  background-repeat: no-repeat;
+  background-position: 9px 48%;
+  padding-left: 37px;
+}
+
+.header .navbar form button {
+  color: #fff;
+  border-color: #47AD85;
+}
+
+.header .navbar form button:hover {
+  background: #47AD85;
+}
+
+.movies-section {
+  padding: 70px 0 40px;
+}
+
+.movies-section .movie {
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+          box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+}
+
+.movies-section .movie .content {
+  background: #fff;
+  padding: 8px 15px;
+}
+
+.movies-section .movie .movie-image {
+  min-height: 200px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .movies-section .movie .movie-image {
+    min-height: 250px;
+  }
+}
+
+.movies-section .movie .movie-image a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.movies-section .movie .movie-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.movies-section .movie .date {
+  color: #9c9999;
+  font-size: 13px;
+}
+
+.movies-section .movie .text {
+  font-size: 14px;
+  margin: 20px 0 30px;
+}
+
+.movies-section .movie .more-info {
+  border-top: 1px solid rgba(156, 153, 153, 0.22);
+  padding: 10px 0;
+}
+
+.movies-section .movie .more-info a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pagination .page-link {
+  color: #47AD85;
+}
+
+.pagination .page-item.active .page-link {
+  background: #47AD85;
+  border-color: #47AD85;
+}
+/*# sourceMappingURL=style.css.map */

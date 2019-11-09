@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+
+  #  The Application
+  app:
+    container_name: laravel_app
+    build:
+      context: ./
+      dockerfile: development/app.dockerfile
+    volumes:
+      - ./storage:
+    env_file: '.env'
+    environment:
+      - "DB_HOST=database"
+      - "REDIS_HOST=cache"
+
+  volumes:
+        dbdata:
